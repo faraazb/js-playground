@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+#root {
+    height: 100%;
+    padding: 10px;
+}
+
+.tabs-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.panel {
+    border: 1px solid #e2e4e8;
+    border-top: none;
+    height: 100%;
+}
+
+.tabs {
+    width: 100%;
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #e2e4e8;
+    display: flex;
+}
+
+.tabs__tab-button {
+    display: flex;
+}
+
+.tabs__tab-button>input {
+    appearance: none;
+}
+
+.tabs__tab-button>label {
+    display: block;
+    cursor: pointer;
+    border: 1px solid #e2e4e8;
+    border-bottom: 0;
+    background-color: #f6f8fa;
+    margin-right: -1px;
+    padding: .5em 1em;
+}
+
+.tabs__tab-button>label:hover {
+    background-color: #fff;
+}
+
+.tabs__tab-button>input:checked+label {
+    background-color: #fff;
+    border-color: #e2e4e8;
+    box-shadow: inset 0 2px 0 -1px #fa826c;
+}

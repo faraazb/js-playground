@@ -1,6 +1,6 @@
 # Counter
 A simple counter example which uses DOM manipulation to add its sub-components to an HTML document.
-It exports a `render(container)` function which takes an HTML node as an argument and replaces the container's children with the counter.
+It exports a `render(container)` function which takes an HTML node as an argument and replaces the provided container's children with the counter.
 
 ## Usage
 ```js

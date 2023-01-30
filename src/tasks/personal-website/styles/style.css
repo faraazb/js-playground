@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Permanent+Marker&family=Space+Grotesk:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-primary: #000;
+    font-size: 10px;
+}
+
+body {
+    height: 100vh;
+    font-family: "Space Grotesk";
+    font-size: 1.6rem;
+}
+
+#root {
+    height: 100%;
+}
+
+a, .link {
+    text-decoration: none;
+    color: var(--text-primary);
+    border-bottom: 1px solid #000;
+}
+
+.button {
+    border: 1px solid #000;
+    border-radius: 6px;
+    padding: 4px 12px;
+    background-color: #66605f;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #827b7a;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5vw;
+    height: 80px;
+    border-bottom: solid 1px #e4e4e4;
+}
+
+#logo {
+    font-family: "Oooh Baby";
+    font-size: 3.5rem;
+}
+
+.container {
+    margin-top: 1rem;
+    border: 4px double #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    margin: 0 12%;
+    width: 90%;
+    max-width: 900px;
+}
+
+section {
+    margin-top: 4em;
+}
+
+.hello {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-weight: 400;
+    font-family: "Permanent Marker";
+    font-size: 3.5rem;
+}
+
+.heading--2 {
+    font-family: "Permanent Marker";
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#intro {
+    grid-column-gap: 25px;
+    display: grid;
+    grid-template-columns: .95fr 250px;
+    place-content: center;
+}
+
+#intro .description {
+    font-size: 2rem;
+}
+
+@media (max-width: 810px) {
+    #intro {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #profile-photo {
+        max-width: 200px;
+    }
+}
+
+#profile-photo {
+    width: 100%;
+    padding: 10px;
+    border: 2px dotted #000;
+    border-radius: 50%;
+}
+
+.peep {
+    height: 300px;
+    width: auto;
+}
+
+#about {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about {
+    flex: 1 0;
+}
+
+#projects {
+    position: relative;
+}
+
+.projects {
+    grid-gap: 2em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(400px, 100%), 1fr));
+    width: 100%;
+}
+
+.project {
+    height: auto;
+    max-width: 500px;
+    min-height: 400px;
+    min-width: 200px;
+
+    /* width: auto;
+    max-width: 400px; */
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.project__title-box {
+    border-bottom: 2px solid #000;
+    padding: 0.6em;
+    font-size: 2rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.project__lights {
+    display: flex;
+    column-gap: 5px;
+}
+
+.light {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+
+.light--red {
+    background-color: #2e2e2e;
+}
+
+.light--yellow {
+    background-color: #575757;
+}
+
+.light--green {
+    background-color: #a5a5a5;
+}
+
+.project__image {
+    width: 100%;
+}
+
+.project__image>img {
+    width: 100%;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    border-bottom: 2px solid #000;
+}
+
+.project__description-box {
+    padding: 0.6em;
+}
+
+.project__actions {
+    padding-bottom: 0.6em;
+    padding-right: 0.6em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.postit {
+    display: none;
+    text-align: center;
+    width: 215px;
+    margin: 25px;
+    min-height: 200px;
+    max-height: 250px;
+    padding-top: 35px;
+    position: relative;
+    border: 1px solid #E8E8E8;
+    border-top: 60px solid #fdfd86;
+    font-family: 'Oooh Baby';
+    border-bottom-right-radius: 60px 5px;
+    display: inline-block;
+    background: #ffff88;
+    background: linear-gradient(135deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%);
+    font-size: 2rem;
+    line-height: 2.8rem;
+    padding: 5px 7px 20px 7px;
+}
+
+.postit:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    right: -0px;
+    bottom: 20px;
+    width: 200px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 15px 5px rgba(0, 0, 0, 0.40);
+    transform: matrix(-1, -0.1, 0, 1, 0, 0);
+}
+
+.postit>img {
+    width: 100%;
+}
+
+.postit--pos {
+    position: absolute !important;
+    left: -190px;
+}
+
+.postit--pos-1 {
+    position: absolute !important;
+    top: 60px;
+    right: -200px;
+}
+
+.postit--pos-2 {
+    position: absolute !important;
+    top: -60px;
+    right: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .postit {
+        display: none;
+    }
+}
+
+.contact__links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.contact__link {
+    cursor: pointer;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    margin-top: 4%;
+    height: 15%;
+    min-height: 250px;
+    max-height: 350px;
+    border-top: 2px solid #000;
+    position: relative;
+}
+
+.footer__content {
+    /* max-width: 55%; */
+    justify-self: center;
+    padding: 4em;
+    font-size: 1.7rem;
+}
+
+@media screen and (max-width: 768px) {
+    .peep--cycling {
+        display: none;
+    }
+}

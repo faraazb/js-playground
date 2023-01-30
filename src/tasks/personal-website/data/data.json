@@ -2,15 +2,15 @@
     "intro": {
         "title": "Hello!",
         "description": "I am Faraaz Biyabani, a computer engineering student and an Associate Software Engineering Intern at Contentstack.",
-        "image": "https://faraazb.github.io/cs-personal-website/assets/faraaz.webp"
+        "image": "https://faraazb.github.io/js-playground/src/tasks/personal-website/assets/faraaz.webp"
     },
     "about": {
         "title": "A little about me..",
         "description": "I have always been fascinated by technology. It all started with playing Road Rash and Midtown Madness, turning school lessons into PowerPoint presentations. A couple of computers later, I wrote my first Python script in class 11 to download my class schedule. Since then, I built a few relatively bigger things, participated in hackathons and have realized that I like doing this enough that I want to do it for a long long time.",
-        "image": "https://faraazb.github.io/cs-personal-website/assets/peep-handfold.svg",
+        "image": "https://faraazb.github.io/js-playground/src/tasks/personal-website/assets/peep-handfold.svg",
         "note": {
             "type": "image",
-            "content": "https://faraazb.github.io/cs-personal-website/assets/road-rash-05-big.png"
+            "content": "https://faraazb.github.io/js-playground/src/tasks/personal-website/assets/road-rash-05-big.png"
         }
     },
     "projects": {
@@ -19,7 +19,7 @@
             {
                 "title": "Markerr",
                 "description": "Markerr is a collaborative webpage annotation tool which can be used to comment on live websites. HTML elements can be tagged and text can be highlighted to discuss visual bugs or provide feedback. Markerr can eliminate feedback scattered across screenshots and multiple platforms.",
-                "image": "https://faraazb.github.io/cs-personal-website/assets/screenshot_markerr.webp",
+                "image": "https://faraazb.github.io/js-playground/src/tasks/personal-website/assets/screenshot_markerr.webp",
                 "links": [
                     {
                         "title": "GitHub",
@@ -30,7 +30,7 @@
             {
                 "title": "Find-a-CoWIN",
                 "description": "Find-a-CoWIN is a slot finder for MoHFW's (India) CoWIN vaccination platform. It uses the CoWIN Public API to get the vaccination slots data for any district in any state across India. It has extensive filtering options, light or dark themes and the ability to star or bookmark vaccination centers.",
-                "image": "https://faraazb.github.io/cs-personal-website/assets/screenshot_findacowin_light.webp",
+                "image": "https://faraazb.github.io/js-playground/src/tasks/personal-website/assets/screenshot_findacowin_light.webp",
                 "links": [
                     {
                         "title": "GitHub",
@@ -59,7 +59,7 @@
     },
     "footer": {
         "description": "I recently started working on a Notion web clipper extension. I am always excited to discuss fun ideas and software. You can reach me at mfaraazb@gmail.com.",
-        "image": "https://faraazb.github.io/cs-personal-website/assets/peep-cycling.svg",
+        "image": "https://faraazb.github.io/js-playground/src/tasks/personal-website/assets/peep-cycling.svg",
         "note": {
             "type": "text",
             "content": "See you later!"

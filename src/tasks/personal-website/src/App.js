@@ -8,7 +8,10 @@ import { ContactLink } from "./components/ContactLink.js";
 import { Footer } from "./components/Footer.js";
 
 
-const API_URL = `${window.location.protocol}//${window.location.host}/src/tasks/personal-website/`
+let API_URL = `${window.location.protocol}//${window.location.host}/src/tasks/personal-website/`
+if (window.location.host === "faraazb.github.io") {
+    API_URL = window.location;
+}
 
 
 class App extends Component {
@@ -95,7 +98,7 @@ class App extends Component {
         introduction.mount(content)
         about.mount(content);
         content.append(projectsSection, contactSection);
-        
+
         footer.mount(container);
 
         appContainer.appendChild(container);

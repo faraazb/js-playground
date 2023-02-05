@@ -1,0 +1,10 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+
+.product__mrp {
+    font-size: 1.4rem;
+}

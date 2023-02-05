@@ -1,0 +1,163 @@
+[
+    {
+        "id": 1,
+        "title": "Britannia Good Day Cashew Cookies : 600 gms",
+        "brand": "Britannia",
+        "available": true,
+        "price": 198,
+        "saving": 60,
+        "thumbnail": "place/1.jpg" 
+    },
+    {
+        "id": 2,
+        "title": "Parle Hide & Seek Chocolate Chip Cookies : 350 gms",
+        "brand": "Parle",
+        "available": true,
+        "price": 100,
+        "mrp": 150,
+        "thumbnail": "place/2.jpg" 
+    },
+    {
+        "id": 3,
+        "title": "Malkist Chocolate Flavoured Crunchy Layered Crackers : 138 gms",
+        "brand": "Malkist",
+        "available": true,
+        "price": 45,
+        "mrp": 60,
+        "thumbnail": "place/3.jpg" 
+    },
+    {
+        "id": 4,
+        "title": "Britannia Milk Bikis Biscuits : 500 gms",
+        "brand": "Britannia",
+        "available": true,
+        "price": 69,
+        "mrp": 90,
+        "thumbnail": "place/4.jpg" 
+    },
+    {
+        "id": 5,
+        "title": "Unibic Snappers Potato Crackers - Indi Spice : 300 gms",
+        "brand": "Unibic",
+        "available": true,
+        "price": 75,
+        "mrp": 150,
+        "thumbnail": "place/5.jpg" 
+    },
+    {
+        "id": 6,
+        "title": "Unibic Choco Kiss Cookies : 250 gms",
+        "brand": "Unibic",
+        "available": true,
+        "price": 80,
+        "mrp": 160,
+        "thumbnail": "place/6.jpg" 
+    },
+    {
+        "id": 7,
+        "title": "Britannia Nice Time Coconut Biscuits : 143 gms",
+        "brand": "Britannia",
+        "available": true,
+        "price": 23,
+        "mrp": 25,
+        "thumbnail": "place/7.jpg" 
+    },
+    {
+        "id": 8,
+        "title": "Sunfeast Mom's Magic Cashew & Almond : 584 gms",
+        "brand": "Sunfeast",
+        "available": true,
+        "price": 75,
+        "mrp": 130,
+        "thumbnail": "place/8.jpg" 
+    },
+    {
+        "id": 9,
+        "title": "Britannia Little Hearts Classic : 75 gms",
+        "brand": "Britannia",
+        "available": false,
+        "price": 25,
+        "mrp": 30,
+        "thumbnail": "place/9.jpg" 
+    },
+    {
+        "id": 10,
+        "title": "Parle Monaco Cheeslings Classic : 300 gms",
+        "brand": "Parle",
+        "available": true,
+        "price": 125,
+        "mrp": 140,
+        "thumbnail": "place/10.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Cadbury Oreo Original Chocolatey Sandwich Biscuits : 300 gms",
+        "brand": "Cadbury",
+        "available": true,
+        "price": 65,
+        "mrp": 80,
+        "thumbnail": "place/11.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Cadbury Bournvita Biscuits : 400 gms",
+        "brand": "Cadbury",
+        "available": true,
+        "price": 99,
+        "mrp": 120,
+        "thumbnail": "place/12.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Haldiram's Aloo Bhujia : 150 gms",
+        "brand": "Haldiram",
+        "available": true,
+        "price": 47,
+        "mrp": 52,
+        "thumbnail": "place/13.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Peppy Tomato Discs : 60 gms",
+        "brand": "Peppy",
+        "available": true,
+        "price": 30,
+        "mrp": 60,
+        "thumbnail": "place/14.jpg"
+    },
+    {
+        "id": 15,
+        "title": "Chheda's Yellow Banana Chips : 170 gms",
+        "brand": "Chheda's",
+        "available": true,
+        "price": 58,
+        "mrp": 100,
+        "thumbnail": "place/15.jpg"
+    },
+    {
+        "id": 16,
+        "title": "Lay's Wafer Style Potato Chips - Sundried Chilli : 48 gms",
+        "brand": "Lay's",
+        "available": true,
+        "price": 16,
+        "mrp": 20,
+        "thumbnail": "place/16.jpg"
+    },
+    {
+        "id": 17,
+        "title": "Garden Potato Chips - Premium Salted : 170 gms",
+        "brand": "Garden",
+        "available": true,
+        "price": 50,
+        "mrp": 80,
+        "thumbnail": "place/17.jpg"
+    },
+    {
+        "id": 18,
+        "title": "Kurkure Masala Munch Namkeen : 106 gms",
+        "brand": "Kurkure",
+        "available": true,
+        "price": 26,
+        "mrp": 30
+    }
+]

@@ -5,7 +5,7 @@ import State from "./State.js";
 import ProductList from "./components/product-list/ProductList.js";
 import Cart from "./components/cart/Cart.js";
 
-const BASE_URL = "http://127.0.0.1:5500/src/tasks/add-to-cart/";
+const BASE_URL = "https://faraazb.github.io/js-playground/src/tasks/add-to-cart/";
 
 
 

@@ -5,8 +5,8 @@
         "brand": "Britannia",
         "available": true,
         "price": 198,
-        "saving": 60,
-        "thumbnail": "place/1.jpg" 
+        "mrp": 258,
+        "thumbnail": "assets/images/products/1.jpg" 
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "available": true,
         "price": 100,
         "mrp": 150,
-        "thumbnail": "place/2.jpg" 
+        "thumbnail": "assets/images/products/2.jpg" 
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "available": true,
         "price": 45,
         "mrp": 60,
-        "thumbnail": "place/3.jpg" 
+        "thumbnail": "assets/images/products/3.jpg" 
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "available": true,
         "price": 69,
         "mrp": 90,
-        "thumbnail": "place/4.jpg" 
+        "thumbnail": "assets/images/products/4.jpg" 
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "available": true,
         "price": 75,
         "mrp": 150,
-        "thumbnail": "place/5.jpg" 
+        "thumbnail": "assets/images/products/5.jpg" 
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "available": true,
         "price": 80,
         "mrp": 160,
-        "thumbnail": "place/6.jpg" 
+        "thumbnail": "assets/images/products/6.jpg" 
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "available": true,
         "price": 23,
         "mrp": 25,
-        "thumbnail": "place/7.jpg" 
+        "thumbnail": "assets/images/products/7.jpg" 
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "available": true,
         "price": 75,
         "mrp": 130,
-        "thumbnail": "place/8.jpg" 
+        "thumbnail": "assets/images/products/8.jpg" 
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "available": false,
         "price": 25,
         "mrp": 30,
-        "thumbnail": "place/9.jpg" 
+        "thumbnail": "assets/images/products/9.jpg" 
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "available": true,
         "price": 125,
         "mrp": 140,
-        "thumbnail": "place/10.jpg"
+        "thumbnail": "assets/images/products/10.jpg"
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "available": true,
         "price": 65,
         "mrp": 80,
-        "thumbnail": "place/11.jpg"
+        "thumbnail": "assets/images/products/11.jpg"
     },
     {
         "id": 12,
@@ -105,7 +105,7 @@
         "available": true,
         "price": 99,
         "mrp": 120,
-        "thumbnail": "place/12.jpg"
+        "thumbnail": "assets/images/products/12.jpg"
     },
     {
         "id": 13,
@@ -114,7 +114,7 @@
         "available": true,
         "price": 47,
         "mrp": 52,
-        "thumbnail": "place/13.jpg"
+        "thumbnail": "assets/images/products/13.jpg"
     },
     {
         "id": 14,
@@ -123,7 +123,7 @@
         "available": true,
         "price": 30,
         "mrp": 60,
-        "thumbnail": "place/14.jpg"
+        "thumbnail": "assets/images/products/14.jpg"
     },
     {
         "id": 15,
@@ -132,7 +132,7 @@
         "available": true,
         "price": 58,
         "mrp": 100,
-        "thumbnail": "place/15.jpg"
+        "thumbnail": "assets/images/products/15.jpg"
     },
     {
         "id": 16,
@@ -141,7 +141,7 @@
         "available": true,
         "price": 16,
         "mrp": 20,
-        "thumbnail": "place/16.jpg"
+        "thumbnail": "assets/images/products/16.jpg"
     },
     {
         "id": 17,
@@ -150,7 +150,7 @@
         "available": true,
         "price": 50,
         "mrp": 80,
-        "thumbnail": "place/17.jpg"
+        "thumbnail": "assets/images/products/17.jpg"
     },
     {
         "id": 18,
@@ -158,6 +158,7 @@
         "brand": "Kurkure",
         "available": true,
         "price": 26,
-        "mrp": 30
+        "mrp": 30,
+        "thumbnail": "assets/images/products/18.jpg"
     }
 ]

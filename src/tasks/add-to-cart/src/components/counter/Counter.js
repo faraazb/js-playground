@@ -33,8 +33,8 @@ export default class Counter extends Component {
     updateCounterView = (prevCount, nextCount) => {
         if (nextCount === 0) {
             document.getElementById(this.id).replaceChildren(
-                el("button.increment.increment--1", { onClick: this.increment }, [
-                    icon("span.icon", "Add to Cart")
+                el("button.increment.primary", { onClick: this.increment }, [
+                    el("span", "Add to Cart")
                 ])
             )
         }
@@ -59,8 +59,8 @@ export default class Counter extends Component {
     render() {
         return el(
             `div#${this.id}.counter`, [
-            el("button.increment.increment--1", { onClick: this.increment }, [
-                icon("span.icon", "Add to Cart")
+            el("button.increment.primary", { onClick: this.increment }, [
+                el("span", "Add to Cart")
             ])
         ]
         )

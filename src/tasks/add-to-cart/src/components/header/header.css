@@ -8,8 +8,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 5vw;
+    padding: 10px 3vw;
     z-index: 20;
+    font-size: 1.6rem;
 }
 
 header .actions {
@@ -39,7 +40,8 @@ header .cart__icon {
 }
 
 .actions__cart .cart__count {
-    background-color: aqua;
+    background-color: var(--accent-primary);
+    color: #fff;
     padding: 5px;
     border-radius: 50%;
     height: 18px;

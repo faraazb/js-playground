@@ -1,0 +1,39 @@
+.cart__title {
+    margin: 1em;
+}
+
+.cart__items {
+    /* margin: 1em; */
+    margin: 1em;
+}
+
+.cart__item {
+    display: flex;
+    column-gap: 4px;
+    padding: 8px 0;
+    border-top: 1px solid rgb(200, 200, 200);
+}
+
+.item__title {
+    max-width: 150px;
+}
+
+.cart__footer {
+    padding-bottom: 1em;
+    position: sticky;
+    bottom: 0;
+    background-color: rgb(240, 240, 240);
+}
+
+.cart__hr {
+    border: 1px solid #000;
+    margin: 1em;
+}
+
+.cart .cart__total {
+    margin: 1em;
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    background-color: inherit;
+}

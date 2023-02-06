@@ -6,43 +6,50 @@ import Counter from "../counter/counter.js";
 
 
 export default class Product extends Component {
-    constructor(state, props) {
+    constructor({store, id, title, thumbnail, price, mrp, minCount = 0}) {
         super();
-        this.state = state;
+        this.appStore = store;
         this.id = generateUniqueId({ prefix: "product" })
-        this.productId = props.id;
-        this.title = props.title;
-        this.image = props.image;
-        this.price = props.price;
-        this.mrp = props.mrp;
-        this.minCount = props.minCount ?? 0;
+        this.productId = id;
+        this.title = title;
+        this.thumbnail = thumbnail;
+        this.price = price;
+        this.mrp = mrp;
+        this.minCount = minCount;
     }
 
     setProductCount = (count) => {
-        const current = this.state.cartItems.value[this.productId] ?? 0;
-        this.state.cartItemsCount.setValue((val) => val + (count - current));
-        this.state.cartItems.setValue((val) => {
+        if (count === 0) {
+            document.getElementById(this.id).classList.remove("selected");
+        }
+        else {
+            document.getElementById(this.id).classList.add("selected");
+        }
+        const current = this.appStore.cartItems.value[this.productId] ?? 0;
+        this.appStore.cartItemsCount.setValue((val) => val + (count - current));
+        this.appStore.cartItems.setValue((val) => {
             return { ...val, [this.productId]: count }
         });
-        this.state.cartPrice.setValue((val) => val + (this.price * (count - current)));
-        return this.state.cartItems.value[this.productId];
+        this.appStore.cartPrice.setValue((val) => val + (this.price * (count - current)));
+        return this.appStore.cartItems.value[this.productId];
     }
 
     render() {
-        const { cartItems } = this.state;
+        const { cartItems } = this.appStore;
         return el(
             `div#${this.id}.product`,
             [
                 el("div.product__display", [
-                    el("img", { src: this.image, alt: this.title })
+                    el("img", { src: this.thumbnail, alt: this.title })
                 ]),
                 el("div.product__info", [
                     el("div.product__title", this.title),
                     el("div.product__pricing", [
                         el("div.product__mrp", [
-                            el("del", `MRP ${this.mrp}`)
+                            el("del", `₹ ${this.mrp}`)
                         ]),
-                        el("div.product__price", `\$${this.price}`)
+                        el("div.product__price", `₹${this.price}`),
+                        el("div.product__saving", `Save ₹${this.mrp - this.price}`)
                     ])
                 ]),
                 el("div.product__actions", [

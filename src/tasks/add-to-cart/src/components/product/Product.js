@@ -1,7 +1,7 @@
 import Component from "../../Component.js";
 import el from "../../element.js";
 import { generateUniqueId } from "../../utils.js";
-import Counter from "../counter/counter.js";
+import Counter from "../counter/Counter.js";
 
 
 
